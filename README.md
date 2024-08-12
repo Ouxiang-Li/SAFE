@@ -12,13 +12,15 @@ Install the environment as follows:
 
 ```python
 # create conda environment
-conda create -n SAFE python=3.9
+conda create -n SAFE -y python=3.9
 conda activate SAFE
 # install pytorch 
 pip install torch==2.2.1 torchvision==0.17.1
 # install other dependencies
 pip install -r requirements.txt
 ```
+
+We are using torch 2.2.1 in our production environment, but other versions should be fine as well.
 
 ## Getting the data
 
@@ -95,11 +97,15 @@ data/datasets
 bash scripts/train.sh
 ```
 
+This script enables training with 4 GPUs, you can specify the number of GPUs by setting `GPU_NUM`.
+
 ## Inference
 
 ```
 bash scripts/eval.sh
 ```
+
+We provide the pretrained checkpoint in `./checkpoint/checkpoint-best.pth`, you can directly run the script to reproduce our results. 
 
 ## Citing
 If you find this repository useful for your work, please consider citing it as follows:
