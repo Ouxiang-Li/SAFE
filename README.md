@@ -1,4 +1,4 @@
-# Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspective
+# SAFE: </u>S</u>imple Preserved and </u>A</u>ugmented </u>FE</u>atures
 
 This is the official Pytorch implementation of our paper:
 
