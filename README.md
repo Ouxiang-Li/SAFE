@@ -1,4 +1,4 @@
-# SAFE: </u>S</u>imple Preserved and </u>A</u>ugmented </u>FE</u>atures
+# SAFE:  <u>S</u>imple Preserved and <u>A</u>ugmented <u>FE</u>tures
 
 This is the official Pytorch implementation of our paper:
 
