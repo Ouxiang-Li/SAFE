@@ -1,4 +1,4 @@
-# SAFE:  <u>S</u>imple Preserved and <u>A</u>ugmented <u>FE</u>tures
+# SAFE:  Simple Preserved and Augmented FEtures
 
 This is the official Pytorch implementation of our paper:
 
