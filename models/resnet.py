@@ -156,7 +156,6 @@ class ResNet(nn.Module):
         '''
         pip install pywavelets pytorch_wavelets
         '''
-        sys.path.append(os.getcwd() + "tools/pytorch_wavelets")
         from pytorch_wavelets import DWTForward, DWTInverse
         DWT_filter = DWTForward(J=1, mode=mode, wave=wave).to(x.device)
         Yl, Yh = DWT_filter(x)
