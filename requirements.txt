@@ -1,0 +1,9 @@
+timm==0.6.12
+kornia==0.7.2
+numpy==1.26.4
+opencv-python
+pywavelets
+pytorch_wavelets
+tensorboardX
+scipy
+scikit-learn
