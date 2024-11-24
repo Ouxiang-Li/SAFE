@@ -31,24 +31,15 @@ We are using torch 2.2.1 in our production environment, but other versions shoul
 
 |             |                            paper                             |                             Url                              |
 | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  Train Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [link](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view) |
-|  Val   Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [link](https://drive.google.com/file/d/1FU7xF8Wl_F8b0tgL0529qg2nZ_RpdVNL/view) |
-|  Test Set1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [link](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view) |
-|  Test Set2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
-|  Test Set3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
-|  Test Set4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
-|  Test Set5  | DiTFake           | [link](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235) |
+|  Train Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view) |
+|  Val   Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1FU7xF8Wl_F8b0tgL0529qg2nZ_RpdVNL/view) |
+|  Test Set1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view) |
+|  Test Set2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [Link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
+|  Test Set3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [Link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
+|  Test Set4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [Link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
+|  Test Set5  | [DiTFake Ours](https://github.com/Ouxiang-Li/SAFE)                               | [Link](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235) |
 
-The comparative results are shown below, and details of our `DiTFake` testset will be presented in the forthcoming camera-ready version soon.
-
-| Method     | Source  | Flux        | PixArt       | SD3         | Mean                      |
-| ---------- | ------- | ----------- | ------------ | ----------- | ------------------------- |
-| UniFD      | CVPR23  | 52.0 / 62.0 | 53.8 / 67.1  | 53.5 / 66.4 | 53.1 / 65.2               |
-| PatchCraft | Arxiv23 | 90.9 / 97.9 | 94.4 / 99.0  | 93.7 / 98.7 | <u>93.0</u> / <u>98.5</u> |
-| FreqNet    | AAAI24  | 73.2 / 80.1 | 59.4 / 65.4  | 66.3 / 73.7 | 66.3 / 73.1               |
-| NPR        | CVPR24  | 79.5 / 88.7 | 78.5 / 86.0  | 78.9 / 87.5 | 79.0 / 87.4               |
-| FatFormer  | CVPR24  | 54.4 / 61.8 | 67.1 / 79.1  | 58.3 / 69.1 | 59.9 / 70.0               |
-| Ours       | -       | 99.3 / 99.9 | 99.6 / 100.0 | 99.4 / 99.9 | **99.4** / **99.9**       |
+The generation script for our dataset is provided in `data/generation.py`, we hope more synthetic images from up-to-date generative models coud be promptly evaluated and made publicly available. Details of our `DiTFake` testset and comparative results will be presented in the forthcoming camera-ready version soon.
 
 ## Directory structure
 
