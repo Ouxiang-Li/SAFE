@@ -31,9 +31,9 @@ We are using torch 2.2.1 in our production environment, but other versions shoul
 
 |             |                            paper                             |                             Url                              |
 | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  Train Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1iVNBV0glknyTYGA9bCxT_d0CVTOgGcKh/view) |
-|  Val   Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1FU7xF8Wl_F8b0tgL0529qg2nZ_RpdVNL/view) |
-|  Test Set1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view) |
+|  Train Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48) |
+|  Val   Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48/folder/129187348352) |
+|  Test Set1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48/folder/129187348352) |
 |  Test Set2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [Link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
 |  Test Set3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [Link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
 |  Test Set4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [Link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
