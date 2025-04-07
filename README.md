@@ -8,7 +8,7 @@ This is the official Pytorch implementation of our paper:
 
 ## News
 
-- `2025/04` :new: Include evaluation on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [`Getting the data`](#getting-the-data).
+- `2025/04` :new: Include evaluation on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [Getting the data](#getting-the-data).
 - `2024/11` :fire: We collect a new testset [`DiTFake`](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
 - `2024/11` :tada: Our paper is accepted by KDD2025 ADS Track.
 
@@ -43,7 +43,7 @@ We are using torch 2.2.1 in our production environment, but other versions shoul
 
 The generation script for our dataset is provided in `data/generation.py`, we hope more synthetic images from up-to-date generative models coud be promptly evaluated and made publicly available. Details of our `DiTFake` testset and comparative results can be found in the latest [ArXiv](https://arxiv.org/abs/2408.06741) paper.
 
-- `2025/04` : Due to the impressive performance of **GPT-4o** in image generation tasks, it also poses new challenges for synthetic image detection. Here, we evaluate the generalization performance of our **SAFE** on this front, using two subsets collected by [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval): **GenEval** (555 fake images) and **ReasoningEdit** (190 fake images). Our method achieved **98.92%** and **96.32%** ACC on these two test sets, respectively.
+`2025/04` : Due to the impressive performance of **GPT-4o** in image generation tasks, it also poses new challenges for synthetic image detection. Here, we evaluate the generalization performance of our **SAFE** on this front, using two subsets collected by [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval): **GenEval** (555 fake images) and **ReasoningEdit** (190 fake images). Our method achieved **98.92%** and **96.32%** ACC on these two test sets, respectively.
 
 ## Directory structure
 
