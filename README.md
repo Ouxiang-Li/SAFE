@@ -8,7 +8,7 @@ This is the official Pytorch implementation of our paper:
 
 ## News
 
-- `2025/04` :memo: Evaluated **SAFE** on **GPT-4o** generations, achieving **98.92%** (GenEval) and **96.32%** (ReasoningEdit) ACCs — see [GPT-ImgEval](#getting-the-data).
+- `2025/04` :memo: Evaluated SAFE on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [Getting the data](#getting-the-data).
 - `2024/11` :fire: We collect a new testset [`DiTFake`](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
 - `2024/11` :tada: Our paper is accepted by KDD2025 ADS Track.
 
