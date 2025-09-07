@@ -6,13 +6,22 @@ This is the official Pytorch implementation of our paper:
 >
 > Ouxiang Li, Jiayin Cai, Yanbin Hao, Xiaolong Jiang, Yao Hu, Fuli Feng
 
-## News
+<p align="center">
+  <a href='https://arxiv.org/abs/2408.06741'>
+    <img src='https://img.shields.io/badge/Arxiv-2408.06741-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://huggingface.co/lioooox/SPEED'>
+    <img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange'>
+  </a>
+</p>
+
+## 📣 News
 
 - `2025/04` :new: Include evaluation on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [Getting the data](#getting-the-data).
-- `2024/11` :fire: We collect a new testset [`DiTFake`](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
+- `2024/11` :fire: We collect a new testset [`DiTFake`](https://huggingface.co/datasets/lioooox/DiTFake), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
 - `2024/11` :tada: Our paper is accepted by KDD2025 ADS Track.
 
-## Requirements
+## 📄 Requirements
 
 Install the environment as follows:
 
@@ -28,7 +37,7 @@ pip install -r requirements.txt
 
 We are using torch 2.2.1 in our production environment, but other versions should be fine as well.
 
-## Getting the data
+## 📊 Getting the data
 
 |             |                            paper                             |                             Url                              |
 | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -38,14 +47,14 @@ We are using torch 2.2.1 in our production environment, but other versions shoul
 |  Test Set2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [Link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
 |  Test Set3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [Link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
 |  Test Set4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [Link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
-|  Test Set5  | [DiTFake Ours](https://github.com/Ouxiang-Li/SAFE)                               | [Link](https://rec.ustc.edu.cn/share/bb75c2e0-aa6c-11ef-add8-4fbd6e5ad235) |
+|  Test Set5  | [DiTFake Ours](https://github.com/Ouxiang-Li/SAFE)                               | [Link](https://huggingface.co/datasets/lioooox/DiTFake) |
 |  Test Set6  | [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval)                           | [Link](https://huggingface.co/datasets/Yejy53/GPT-ImgEval) |
 
 The generation script for our dataset is provided in `data/generation.py`, we hope more synthetic images from up-to-date generative models coud be promptly evaluated and made publicly available. Details of our `DiTFake` testset and comparative results can be found in the latest [ArXiv](https://arxiv.org/abs/2408.06741) paper.
 
 `2025/04` : Due to the impressive performance of **GPT-4o** in image generation tasks, it also poses new challenges for synthetic image detection. Here, we evaluate the generalization performance of our **SAFE** on this front, using two subsets collected by [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval): **GenEval** (555 fake images) and **ReasoningEdit** (190 fake images). Our method achieved **98.92%** and **96.32%** ACC on these two test sets, respectively.
 
-## Directory structure
+## 📂 Directory structure
 
 <details>
 <summary> You should organize the above data as follows: </summary>
@@ -107,7 +116,7 @@ data/datasets
 ```
 </details>
 
-## Training
+## 🔥 Training
 
 ```
 bash scripts/train.sh
@@ -115,7 +124,7 @@ bash scripts/train.sh
 
 This script enables training with 4 GPUs, you can specify the number of GPUs by setting `GPU_NUM`.
 
-## Inference
+## 🧊 Inference
 
 ```
 bash scripts/eval.sh
@@ -123,7 +132,7 @@ bash scripts/eval.sh
 
 We provide the pretrained checkpoint in `./checkpoint/checkpoint-best.pth`, you can directly run the script to reproduce our results. 
 
-## Citing
+## ✍️ Citing
 If you find this repository useful for your work, please consider citing it as follows:
 ```
 @article{li2024improving,
