@@ -10,7 +10,7 @@ This is the official Pytorch implementation of our paper:
   <a href='https://arxiv.org/abs/2408.06741'>
     <img src='https://img.shields.io/badge/Arxiv-2408.06741-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
-  <a href='https://huggingface.co/lioooox/SPEED'>
+  <a href='https://huggingface.co/datasets/lioooox/DiTFake'>
     <img src='https://img.shields.io/badge/Hugging Face-Dataset-orange?style=flat&logo=HuggingFace&logoColor=orange'>
   </a>
 </p>
