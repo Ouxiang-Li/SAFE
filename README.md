@@ -135,10 +135,11 @@ We provide the pretrained checkpoint in `./checkpoint/checkpoint-best.pth`, you 
 ## ✍️ Citing
 If you find this repository useful for your work, please consider citing it as follows:
 ```
-@article{li2024improving,
-  title={Improving Synthetic Image Detection Towards Generalization: An Image Transformation Perspective},
+@inproceedings{li2025improving,
+  title={Improving synthetic image detection towards generalization: An image transformation perspective},
   author={Li, Ouxiang and Cai, Jiayin and Hao, Yanbin and Jiang, Xiaolong and Hu, Yao and Feng, Fuli},
-  journal={arXiv preprint arXiv:2408.06741},
-  year={2024}
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1},
+  pages={2405--2414},
+  year={2025}
 }
 ```
