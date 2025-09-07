@@ -11,7 +11,7 @@ This is the official Pytorch implementation of our paper:
     <img src='https://img.shields.io/badge/Arxiv-2408.06741-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <a href='https://huggingface.co/lioooox/SPEED'>
-    <img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange'>
+    <img src='https://img.shields.io/badge/Hugging Face-Dataset-orange?style=flat&logo=HuggingFace&logoColor=orange'>
   </a>
 </p>
 
