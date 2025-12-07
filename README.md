@@ -21,7 +21,7 @@ This is the official Pytorch implementation of our paper:
 
 ## 📣 News
 
-- `2025/12` :star: We organize a comprehensive T2I generation benchmark, [T2I-CoReBench](https://t2i-corebench.github.io/), and release **33 leading models’ generations** ($33 \times 4,320 = 142,560$ fake images in total) as [T2I-CoReBench-Images](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images), continuously expanding to `diffusion`, `autoregressive`, `unified`, and `closed-source` models. We hope this dataset can also benefit research on SID towards the latest advances in image generation.
+- `2025/12` :fire: We organize a comprehensive T2I generation benchmark, [T2I-CoReBench](https://t2i-corebench.github.io/), and release **33 leading models’ generations** ($33 \times 4,320 = 142,560$ fake images in total) as [T2I-CoReBench-Images](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images), continuously expanding to `diffusion`, `autoregressive`, `unified`, and `closed-source` models. We hope this dataset can also benefit research on SID towards the latest advances in image generation.
   
   | Category             | Models                                                       |
   | -------------------- | ------------------------------------------------------------ |
