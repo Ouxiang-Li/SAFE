@@ -25,10 +25,10 @@ This is the official Pytorch implementation of our paper:
   
   | Category             | Models                                                       |
   | -------------------- | ------------------------------------------------------------ |
-  | `Diffusion Models`     | SD-3-Medium, SD-3.5-Medium, SD-3.5-Large, FLUX.1-schnell, FLUX.1-dev, FLUX.1-Krea-dev, FLUX.2-dev, PixArt-$\alpha$, PixArt-$\Sigma$, HiDream-I1, Qwen-Image, HunyuanImage-3.0, Z-Image-Turbo, LongCat-Image |
-  | `Autogressive Models`  | Infinity-8B and GoT-R1-7B                                    |
-  | `Unified Models`       | BAGEL, BAGEL w/ Think, show-o2-1.5B, show-o2-7B, Janus-Pro-1B, Janus-Pro-7B, BLIP3o-4B, BLIP3o-8B, OmniGen2-7B |
-  | `Closed-Source Models` | Seedream 3.0, Seedream 4.0, Gemini 2.0 Flash, Nano Banana, Nano Banana Pro, Imagen 4, Imagen 4 Ultra, GPT-Image |
+  | **Diffusion**     | SD-3-Medium, SD-3.5-Medium, SD-3.5-Large, FLUX.1-schnell, FLUX.1-dev, FLUX.1-Krea-dev, FLUX.2-dev, PixArt-$\alpha$, PixArt-$\Sigma$, HiDream-I1, Qwen-Image, HunyuanImage-3.0, Z-Image-Turbo, LongCat-Image |
+  | **Autogressive**  | Infinity-8B and GoT-R1-7B                                    |
+  | **Unified**       | BAGEL, BAGEL w/ Think, show-o2-1.5B, show-o2-7B, Janus-Pro-1B, Janus-Pro-7B, BLIP3o-4B, BLIP3o-8B, OmniGen2-7B |
+  | **Closed-Source** | Seedream 3.0, Seedream 4.0, Gemini 2.0 Flash, Nano Banana, Nano Banana Pro, Imagen 4, Imagen 4 Ultra, GPT-Image |
 - `2025/04` :new: Include evaluation on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [Getting the data](#getting-the-data).
 
 - `2024/11` :fire: We collect a new testset [`DiTFake`](https://huggingface.co/datasets/lioooox/DiTFake), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
