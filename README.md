@@ -11,14 +11,28 @@ This is the official Pytorch implementation of our paper:
     <img src='https://img.shields.io/badge/Arxiv-2408.06741-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
   <a href='https://huggingface.co/datasets/lioooox/DiTFake'>
-    <img src='https://img.shields.io/badge/Hugging Face-Dataset-orange?style=flat&logo=HuggingFace&logoColor=orange'>
+    <img src='https://img.shields.io/badge/HF-DiTFake-orange?style=flat&logo=HuggingFace&logoColor=orange'>
+  </a>
+  <a href='https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images'>
+    <img src='https://img.shields.io/badge/HF-T2I--CoReBench--Images-orange?style=flat&logo=HuggingFace&logoColor=orange'>
   </a>
 </p>
 
+
 ## 📣 News
 
+- `2025/12` :star: We organize a comprehensive T2I generation benchmark, [T2I-CoReBench](https://t2i-corebench.github.io/), and release **33 leading models’ generations** ($33 \times 4,320 = 142,560$ images in total) as [T2I-CoReBench-Images](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images), continuously expanding to diffusion, autoregressive, unified, and closed-source models. We hope this dataset can also benefit research on SID towards the latest advances in image generation.
+  
+  | Category             | Models                                                       |
+  | -------------------- | ------------------------------------------------------------ |
+  | Diffusion Models     | SD-3-Medium, SD-3.5-Medium, SD-3.5-Large, FLUX.1-schnell, FLUX.1-dev, FLUX.1-Krea-dev, FLUX.2-dev, PixArt-$\alpha$, PixArt-$\Sigma$, HiDream-I1, Qwen-Image, HunyuanImage-3.0, Z-Image-Turbo, LongCat-Image |
+  | Autogressive Models  | Infinity-8B and GoT-R1-7B                                    |
+  | Unified Models       | BAGEL, BAGEL w/ Think, show-o2-1.5B, show-o2-7B, Janus-Pro-1B, Janus-Pro-7B, BLIP3o-4B, BLIP3o-8B, OmniGen2-7B |
+  | Closed-Source Models | Seedream 3.0, Seedream 4.0, Gemini 2.0 Flash, Nano Banana, Nano Banana Pro, Imagen 4, Imagen 4 Ultra, GPT-Image |
 - `2025/04` :new: Include evaluation on GPT-4o generations, achieving 98.92% (GenEval) and 96.32% (ReasoningEdit) accuracies — see [Getting the data](#getting-the-data).
+
 - `2024/11` :fire: We collect a new testset [`DiTFake`](https://huggingface.co/datasets/lioooox/DiTFake), comprising three SOTA DiT-based generators (i.e., Flux, PixArt, and SD3). We hope this dataset could facilitate more comprehensive evaluations for SID.
+
 - `2024/11` :tada: Our paper is accepted by KDD2025 ADS Track.
 
 ## 📄 Requirements
@@ -39,16 +53,17 @@ We are using torch 2.2.1 in our production environment, but other versions shoul
 
 ## 📊 Getting the data
 
-|             |                            paper                             |                             Url                              |
+|             |                            Paper                             |                             Url                              |
 | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  Train Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48) |
 |  Val   Set  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48/folder/129187348352) |
-|  Test Set1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48/folder/129187348352) |
-|  Test Set2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [Link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
-|  Test Set3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [Link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
-|  Test Set4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [Link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
-|  Test Set5  | [DiTFake Ours](https://github.com/Ouxiang-Li/SAFE)                               | [Link](https://huggingface.co/datasets/lioooox/DiTFake) |
-|  Test Set6  | [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval)                           | [Link](https://huggingface.co/datasets/Yejy53/GPT-ImgEval) |
+|  Test Set 1  | [CNNDetection CVPR2020](https://github.com/PeterWang512/CNNDetection)            | [Link](https://cmu.app.box.com/s/4syr4womrggfin0tsfhxohaec5dh6n48/folder/129187348352) |
+|  Test Set 2  | [FreqNet AAAI2024](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection) | [Link](https://drive.google.com/drive/folders/11E0Knf9J1qlv2UuTnJSOFUjIIi90czSj?usp=sharing) |
+|  Test Set 3  | [UniversalFakeDetect CVPR2023](https://github.com/Yuheng-Li/UniversalFakeDetect) | [Link](https://drive.google.com/drive/folders/1nkCXClC7kFM01_fqmLrVNtnOYEFPtWO-?usp=sharing) |
+|  Test Set 4  | [GenImage NeurIPS2023](https://github.com/GenImage-Dataset/GenImage)             | [Link](https://drive.google.com/drive/folders/1jGt10bwTbhEZuGXLyvrCuxOI0cBqQ1FS) |
+|  Test Set 5  | [DiTFake Ours](https://github.com/Ouxiang-Li/SAFE)                               | [Link](https://huggingface.co/datasets/lioooox/DiTFake) |
+|  Test Set 6  | [GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval)                           | [Link](https://huggingface.co/datasets/Yejy53/GPT-ImgEval) |
+|  Test Set 7  | [T2I-CoReBench](https://t2i-corebench.github.io/)                           | [Link](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images) |
 
 The generation script for our dataset is provided in `data/generation.py`, we hope more synthetic images from up-to-date generative models coud be promptly evaluated and made publicly available. Details of our `DiTFake` testset and comparative results can be found in the latest [ArXiv](https://arxiv.org/abs/2408.06741) paper.
 
