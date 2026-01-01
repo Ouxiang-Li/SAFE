@@ -21,11 +21,11 @@ This is the official Pytorch implementation of our paper:
 
 ## 📣 News
 
-- `2025/12` :fire: We organize a comprehensive T2I generation benchmark, [T2I-CoReBench](https://t2i-corebench.github.io/), and release **33 leading models’ generations** ($33 \times 4,320 = 142,560$ fake images in total) as [T2I-CoReBench-Images](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images), continuously expanding to `diffusion`, `autoregressive`, `unified`, and `closed-source` models. We hope this dataset can also benefit research on SID towards the latest advances in image generation.
+- `2025/12` :fire: We organize a comprehensive T2I generation benchmark, [T2I-CoReBench](https://t2i-corebench.github.io/), and release **34 leading models’ generations** ($34 \times 4,320 = 146,880$ fake images in total) as [T2I-CoReBench-Images](https://huggingface.co/datasets/lioooox/T2I-CoReBench-Images), continuously expanding to `diffusion`, `autoregressive`, `unified`, and `closed-source` models. We hope this dataset can also benefit research on SID towards the latest advances in image generation.
   
   | Category             | Models                                                       |
   | -------------------- | ------------------------------------------------------------ |
-  | **Diffusion**     | SD-3-Medium, SD-3.5-Medium, SD-3.5-Large, FLUX.1-schnell, FLUX.1-dev, FLUX.1-Krea-dev, FLUX.2-dev, PixArt-$\alpha$, PixArt-$\Sigma$, HiDream-I1, Qwen-Image, HunyuanImage-3.0, Z-Image-Turbo, LongCat-Image |
+  | **Diffusion**     | SD-3-Medium, SD-3.5-Medium, SD-3.5-Large, FLUX.1-schnell, FLUX.1-dev, FLUX.1-Krea-dev, FLUX.2-dev, PixArt-$\alpha$, PixArt-$\Sigma$, HiDream-I1, Qwen-Image, Qwen-Image-2512, HunyuanImage-3.0, Z-Image-Turbo, LongCat-Image |
   | **Autogressive**  | Infinity-8B and GoT-R1-7B                                    |
   | **Unified**       | BAGEL, BAGEL w/ Think, show-o2-1.5B, show-o2-7B, Janus-Pro-1B, Janus-Pro-7B, BLIP3o-4B, BLIP3o-8B, OmniGen2-7B |
   | **Closed-Source** | Seedream 3.0, Seedream 4.0, Gemini 2.0 Flash, Nano Banana, Nano Banana Pro, Imagen 4, Imagen 4 Ultra, GPT-Image |
